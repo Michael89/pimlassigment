@@ -33,6 +33,10 @@ If your computer is not capable of training the model on the whole dataset, we s
 Also consider that it's not necessary to train the model on the full image size, you can resize it to make it faster.
 Training with mobile net as head on whole dataset takes about 3 minutes per epoch if image downscaled to 128x128.
 
+Example of bounding box predictions
+
+![result](result/bounding_box.gif)
+
 ## Evaluation
 
 In `frames` folder you can find 300 frames of X-wing flying in space. 
