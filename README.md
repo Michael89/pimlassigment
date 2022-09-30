@@ -27,7 +27,7 @@ For additional information about the dataset you can read [Reference.ipynb](Refe
 
 
 ## Task
-Your task is to train a model that will be able to track the X-wing models in the frames and output animation with lasers added.
+Your task is to train a model that will be able to track the X-wing models (absolut positions or bounding box directly) in the frames and based on those predictions draw shooting lasers.
 You can use any model you want, but we recommend you to look for a papers that use NN to predict keypoints.
 If your computer is not capable of training the model on the whole dataset, we suggest you to use a google colab with graphics card for that.
 Also consider that it's not necessary to train the model on the full image size, you can resize it to make it faster.
