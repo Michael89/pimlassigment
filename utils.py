@@ -111,4 +111,4 @@ def produce_animation(frames, predicted_points_projections):
         plt.imshow(img)
         camera.snap()
 
-        return camera.animate(interval=33)
+    return camera.animate(interval=33)
