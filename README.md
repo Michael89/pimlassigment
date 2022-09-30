@@ -41,7 +41,7 @@ Example of bounding box predictions
 
 In `frames` folder you can find 300 frames of X-wing flying in space. 
 Your goal is to track the X-wing in these frames with your NN model and output animation with lasers added.
-There is function in `utils.py` that will help you to evaluate your model. The only thing you need to do is to pass frames and coresponding points to it.
+There is function in `utils.py` that will help you to evaluate your model. The only thing you need to do is to pass frames and corresponding points to it.
 Function `produce_animation` will return animation with lasers added. 
-This function use knolage of the real 3d points of object and use your predicted points with PnP algorithm to find the transformation matrix.
+This function uses the knowledge of the real 3d points of object and use your predicted points with PnP algorithm to find the transformation matrix.
 Then it will use this matrix to project the real 3d points of lasers to 2d image and draw them on the frame.
